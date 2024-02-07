@@ -961,10 +961,10 @@ footer {
     width: 70%;
   }
   .main-table {
-    width: 400px;
+    width: 350px;
   }
   .btn-search {
-    width: 350px;
+    width: 300px;
   }
   .media-wrapper {
     width: 90%;
@@ -1013,26 +1013,29 @@ footer {
   }
   .footer-item {
     align-items: start;
-    margin: 0px;
-    width: 400px;
+    margin-left: 50px;
+    width: 350px;
     justify-content: strat;
   }
   .socials {
     flex-direction: row;
   }
+  .footer-p {
+    width: 80%;
+  }
   .footer-item-last {
-    margin: 0px;
+    margin-left: 30px;
   }
   .footer-item-icons p {
     width: 80%;
   }
   .recent-post-cards-wrapper {
-    width: 400px;
+    width: 380px;
   }
   .card-item,
   .card-item2,
   .card-item3 {
-    width: 400px;
+    width: 380px;
   }
   .feedback-wrapper {
     width: 400px;
