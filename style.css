@@ -833,4 +833,9 @@ footer {
     flex-direction: column;
     width: 50px;
   }
+  .center {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
 }
