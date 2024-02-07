@@ -35,11 +35,25 @@
   </head>
   <body>
     <div data-aos="fade-up" class="center">
-      <nav>
+      <nav class="nav-wrapper">
         <div class="mainicon">
           <h1>Vacation</h1>
           <h5>TRAVEL AGENCY</h5>
+        </div>       
+      <div id="Burger">
+        <i id="burger-icon" class="fa-solid fa-bars"> <span style="font-size: 20px; margin-left: 5px;">MENU</span></i>
+      </div>
+      <div class="Burger-list">
+        <div class="list-wrapper">
+          <a style="color: green" href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Destionation</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <button class="btn">Book Now</button>
         </div>
+      </div>
+      
         <div class="nav-items">
           <a style="color: green" href="#">Home</a>
           <a href="#">About</a>
@@ -55,7 +69,7 @@
           <i class="fa-solid fa-play fa-solid1"></i>
         </div>
 
-        <h4>
+        <h4 class="first-h4">
           Travel to the any corner of the world, without going around in circles
         </h4>
         <div class="h1-text">
@@ -757,7 +771,7 @@
           <div class="footer-item">
             <div><h2>Vacation</h2></div>
             <div><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
-            <div>
+            <div class="socials">
               <i class="fa-brands fa-twitter"></i>
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-instagram"></i>
@@ -805,7 +819,7 @@
           <p class="bottom-footer">Copyright ©2024 All rights reserved | This template is made with  <span style="font-size: 22px; text-align: center;">♥</span> by Colorlib</p>
         </div>
       </footer>
-
+    
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
       integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -833,6 +847,21 @@
         },
       });
       AOS.init();
+      document.addEventListener('DOMContentLoaded', function() {
+        // Select the div element
+        var myDiv = document.getElementById('Burger');
+    
+        // Add event listener to toggle active/inactive on click
+        myDiv.addEventListener('click', function() {
+          if (myDiv.classList.contains('active')) {
+            myDiv.classList.remove('active');
+            myDiv.classList.add('inactive');
+          } else {
+            myDiv.classList.remove('inactive');
+            myDiv.classList.add('active');
+          }
+        });
+      });
        
     </script>
   </body>
