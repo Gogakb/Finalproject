@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  overflow-x: hidden;
 }
 nav {
   display: flex;
@@ -1014,5 +1015,13 @@ footer {
   }
   .footer-item-icons p {
     width: 80%;
+  }
+  .recent-post-cards-wrapper {
+    width: 90%;
+  }
+  .card-item,
+  .card-item2,
+  .card-item3 {
+    width: 400px;
   }
 }
