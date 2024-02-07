@@ -851,6 +851,7 @@ footer {
 @media screen and (max-width: 1200px) {
   .main-table {
     width: 900px;
+    align-items: center;
   }
   .table-item {
     width: 15%;
@@ -866,6 +867,9 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+  .main-table {
+    width: 90%;
   }
 }
 @media screen and (max-width: 800px) {
