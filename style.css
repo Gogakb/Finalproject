@@ -970,10 +970,10 @@ footer {
     width: 300px;
   }
   .media-wrapper {
-    width: 90%;
+    width: 95%;
   }
   .right-media {
-    width: 90%;
+    width: 95%;
     gap: 20px;
   }
   .media-btn {
@@ -981,38 +981,42 @@ footer {
   }
   .second-left-media,
   .second-right-media {
-    width: 90%;
+    width: 95%;
   }
   .thmedia-wraper {
-    width: 90%;
+    width: 95%;
   }
   .th-media-items {
-    width: 80%;
+    width: 95%;
   }
   .th-h1 {
     font-size: 20px;
   }
   .tour-destination {
-    width: 90%;
+    width: 95%;
     gap: 40px;
     justify-content: start;
     align-items: start;
     text-align: start;
   }
   .tour-media-items {
-    width: 90%;
+    width: 100%;
   }
   .media-bottom-border {
-    width: 350px;
+    width: 380px;
   }
   .tour-media-items-content {
-    width: 350px;
+    width: 380px;
   }
   .tour-media-items-content p {
     text-align: start;
   }
   .footer-wrapper {
-    width: 90%;
+    width: 95%;
+  }
+  .th-top-media {
+    margin-top: 50px;
+    text-align: center;
   }
   .footer-item {
     align-items: start;
