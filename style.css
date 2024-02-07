@@ -917,7 +917,6 @@ footer {
   .tour-media-items {
     width: 500px;
     height: 300px;
-    gap: ;
   }
   .second-media-wrapper {
     flex-direction: column;
@@ -943,5 +942,77 @@ footer {
   .left-media {
     width: 90%;
     justify-content: start;
+  }
+}
+@media screen and (max-width: 470px) {
+  .h1-text {
+    font-size: 20px;
+  }
+  .first-h4 {
+    font-size: 15px;
+    width: 70%;
+  }
+  .main-table {
+    width: 400px;
+  }
+  .btn-search {
+    width: 350px;
+  }
+  .media-wrapper {
+    width: 90%;
+  }
+  .right-media {
+    width: 90%;
+    gap: 20px;
+  }
+  .media-btn {
+    margin-top: 20px;
+  }
+  .second-left-media,
+  .second-right-media {
+    width: 90%;
+  }
+  .thmedia-wraper {
+    width: 90%;
+  }
+  .th-media-items {
+    width: 80%;
+  }
+  .th-h1 {
+    font-size: 20px;
+  }
+  .tour-destination {
+    width: 90%;
+    gap: 40px;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+  }
+  .tour-media-items {
+    width: 90%;
+  }
+  .tour-media-items-content {
+    width: 350px;
+  }
+  .tour-media-items-content p {
+    text-align: start;
+  }
+  .footer-wrapper {
+    width: 90%;
+  }
+  .footer-item {
+    align-items: start;
+    margin: 0px;
+    width: 400px;
+    justify-content: strat;
+  }
+  .socials {
+    flex-direction: row;
+  }
+  .footer-item-last {
+    margin: 0px;
+  }
+  .footer-item-icons p {
+    width: 80%;
   }
 }
