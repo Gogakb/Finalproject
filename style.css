@@ -848,6 +848,17 @@ footer {
     width: 100%;
   }
 }
+@media screen and (max-width: 1200px) {
+  .main-table {
+    width: 900px;
+  }
+  .table-item {
+    width: 15%;
+  }
+  .table-item input {
+    width: 150px;
+  }
+}
 @media screen and (max-width: 900px) {
   .recent-post-cards-wrapper {
     width: 80%;
