@@ -893,7 +893,7 @@ footer {
     flex-direction: column;
   }
   .th-media-items {
-    width: 500px;
+    width: 90%;
     height: 350px;
   }
 }
@@ -966,6 +966,9 @@ footer {
     width: 90%;
     justify-content: start;
   }
+  .th-media-items {
+    width: 99%;
+  }
 }
 @media screen and (max-width: 470px) {
   .h1-text {
@@ -979,10 +982,14 @@ footer {
     width: 70%;
   }
   .main-table {
-    width: 350px;
+    width: 90%;
+  }
+  .table-item {
+    width: 90%;
+    text-align: center;
   }
   .btn-search {
-    width: 300px;
+    width: 80%;
   }
   .media-wrapper {
     width: 95%;
@@ -993,6 +1000,7 @@ footer {
   }
   .media-btn {
     margin-top: 20px;
+    width: 60%;
   }
   .second-left-media,
   .second-right-media {
@@ -1002,7 +1010,7 @@ footer {
     width: 95%;
   }
   .th-media-items {
-    width: 95%;
+    width: 99%;
   }
   .th-h1 {
     font-size: 20px;
